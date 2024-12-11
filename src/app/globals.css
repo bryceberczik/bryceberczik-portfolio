@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  cursor: url(./assets/icons8-cursor-24.ico), default !important;
+}
+
 .bg-blur {
   position: relative;
   overflow: hidden;
