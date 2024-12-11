@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "custom-image": "url('./images/black-purple-bg.jpg')",
+        "custom-image": "url('./images/bokah-circle.jpg')",
       },
     },
     variants: {
