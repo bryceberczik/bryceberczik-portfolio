@@ -8,9 +8,13 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      backgroundImage: {
+        "custom-image": "url('./images/black-purple-bg.jpg')",
+      },
+    },
+    variants: {
+      extends: {
+        backgroundImage: ["before"],
       },
     },
   },
